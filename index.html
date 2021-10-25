@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tienda plotter</title>
+        <title>Dev Front plotter</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
                 integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
                 
@@ -28,7 +28,7 @@
                       <strong style ="color:white;">Todas las categorías</strong>
                     </a>
                     <ul class="dropdown-menu " style ="background-color: #4AC6F7;">
-                      <li><a class="dropdown-item" href="http://plotter.tienda/#" style ="color:white;"><strong>Plotters</strong></a></li>
+                      <li><a class="dropdown-item" href="categorias/plotter.html" style ="color:white;"><strong>Plotters</strong></a></li>
                       <li><a class="dropdown-item" href="http://plotter.tienda/#" style ="color:white;"><strong>Tintas y accesorios</strong></a></li>
                       <li><a class="dropdown-item" href="http://plotter.tienda/#" style ="color:white;"><strong>Soportes flexibles</strong></a></li>
                       <li><a class="dropdown-item" href="http://plotter.tienda/#" style ="color:white;"><strong>Soportes rigidos</strong></a></li>
@@ -40,7 +40,7 @@
                 </ul>
               </div>
                 <li class="nav-item active ms-4">
-                  <a class="nav-link" href="#" style ="color:white;"><strong style ="color:white;">Plotters</strong> </a>
+                  <a class="nav-link" href="categorias/plotter.html" style ="color:white;"><strong style ="color:white;">Plotters</strong> </a>
                 </li>
                <li class="nav-item active ms-4">
                   <a class="nav-link" href="#"> <strong style ="color:white;">Tintas y accesorios</strong></a>
@@ -68,22 +68,22 @@
     <!-- Navbar PORTES-->
           
     <!-- {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="222"}}-->
-        <div class="card-group" style ="background-color: #595959; color:white">
-            <div class="card text-center" style ="background-color: #595959; color:white">
-              <div class="card-body">
-                <p class="card-title">Card title</p>
+        <div class="card-group  ">
+            <div class="card text-center" style ="background-color: #939393; color:white; border:none;">
+              <div class="card-body  p-2">
+                <p class="card-title p-0"><strong>968 902 300 L-V 08-14|16- 18:30</strong></p>
                
               </div>
             </div>
-            <div class="card"style ="background-color: #595959; color:white">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+            <div class="card  text-center" style ="background-color: #939393; color:white; border:none;">
+              <div class="card-body p-2">
+                <p class="card-title p-0"><strong>ENVÍO GRATIS desde 100€</strong></p>
                 
               </div>
             </div>
-            <div class="card"style ="background-color: #595959; color:white"s>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+            <div class="card  text-center" style ="background-color: #939393; color:white; border:none;">
+              <div class="card-body p-2">
+                <p class="card-title p-0"> <strong>Servicio Técnico de EPSON</strong></p>
               </div>
             </div>
           </div>
@@ -91,16 +91,107 @@
 
 
 
-    <h2><span>Productos destacados</span></h2>
-    
-    
-    <!-- Bloque destacados -->
+    <h3><strong>Productos destacados</strong></h3>
+    <!-- Bloque  Productos destacados -->
     {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="221"}}
+
+<div class="row row-cols-1 row-cols-md-4 g-5"  style ="margin-right: 50px; margin-left: 50px;">
+  <div class="col h-100"><a href="categorias/papel/cad.html"  >
+    <div  class="card   border-card-img-text"  >
+           
+                      <a href="categorias/herramienta.html" style ="border-radius:2rem"  > 
+                        <img src="./img/canvas.jpg" class="card-img-top" alt="Maquinaria y herramientas" > </a>
+                      <div class="card-body"  style ="background-color: #4AC6F7;">
+                              <h5 class="card-title text-center text-white " > <strong>MAQUINARIA Y HERRAMIENTAS</strong></h5>
+                      </div> 
+
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100  border-card-img-text">
+      <a href="categorias/artistico.html" >
+
+
+<img src="./img/canvas.jpg" class="card-img-top" alt="Vinilos" >  </a>
+      <div class="card-body " style ="background-color: #4AC6F7;">
+        <h5 class="card-title text-center mt-3"> <strong>VINILOS</strong></h5>
     
-    <h2 ><span>Productos recomendados</span></h2>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 border-card-img-text">
+      <a href="categorias/canvas.html" ><img src="./img/canvas.jpg" class="card-img-top" alt="Papel Fotografico" > </a>
+      <div class="card-body" style ="background-color: #4AC6F7;">
+        <h5 class="card-title text-center text-white"><strong>PAPEL FOTOGRÁFICO </strong></h5>
+     
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 border-card-img-text">
+      <a href="categorias/canvas.html" ><img src="./img/canvas.jpg" class="card-img-top" alt="Papel Cad" > </a>
+      <div class="card-body" style ="background-color: #4AC6F7;">
+        <h5 class="card-title text-center mt-3"> <strong>CANVAS</strong></h5>
+   
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!--Block Productos recomendados-->
+    
+    <h3 ><strong>Productos recomendados</strong></h3>
     {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="223"}}
     
     <h2></h2>
+    
+
+<div class="row row-cols-1 row-cols-md-4 g-5"  style ="margin-right: 50px; margin-left: 50px;">
+  <div class="col h-100"><a href="categorias/papel/cad.html"  >
+    <div  class="card   border-card-img-text"  >
+           
+                      <a href="categorias/papel/cad.html" style ="border-radius:2rem"  > <img src="./img/canvas.jpg" class="card-img-top" alt="Maquinaria y herramientas" > </a>
+                      <div class="card-body"  style ="background-color: #4AC6F7;">
+                              <h5 class="card-title text-center text-white" > <strong>MAQUINARIA Y HERRAMIENTAS</strong></h5>
+                        </div> 
+
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100  border-card-img-text">
+      <a href="categorias/artistico.html" >
+
+
+<img src="./img/canvas.jpg" class="card-img-top" alt="Vinilos" >  </a>
+      <div class="card-body" style ="background-color: #4AC6F7;">
+        <h5 class="card-title text-center mt-3"> <strong>VINILOS</strong></h5>
+    
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 border-card-img-text">
+      <a href="categorias/canvas.html" ><img src="./img/canvas.jpg" class="card-img-top" alt="Papel fotografico" > </a>
+      <div class="card-body" style ="background-color: #4AC6F7;">
+        <h5 class="card-title text-center text-white "><strong>PAPEL FOTOGRÁFICO </strong></h5>
+     
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 border-card-img-text">
+      <a href="categorias/canvas.html" ><img src="./img/canvas.jpg" class="card-img-top" alt="Canvas" > </a>
+      <div class="card-body" style ="background-color: #4AC6F7;">
+        <h5 class="card-title text-center mt-3"> <strong>CANVAS</strong></h5>   
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
     
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
@@ -118,12 +209,12 @@
         </div>
        
     </div>
-    <h2></h2>
+    <h3></h3>
      
     <div style ="background:#4AC6F7; pading:500px;" >
     {{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="226"}}
     </div>
-    <h2 ><span>Nuestras marcas</span></h2>
+    <h3 ><strong>Nuestras marcas</strong></h3>
     
     <!-- slider de fabricantes -->
     <p>{{widget type="WeltPixel\OwlCarouselSlider\Block\Slider\Custom" slider_id="12"}}</p>
@@ -136,12 +227,15 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
             integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
             crossorigin="anonymous"></script>
-    
+    <script>
+      const Hola = "./img/canvas.jpg"
+    </script>
+
     <style>
-    div .border-card-img-text{border: 5px solidc }
+    div .border-card-img-text{border: 5px solid #4AC6F7; }
      h5 { color:white}
     
-    h2 {text-align: center ; 
+    h3 {text-align: center ; 
     margin: 40px;
      color: #4AC6F7;}
 
